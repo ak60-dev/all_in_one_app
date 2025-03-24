@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:week_3/calculator_screen.dart';
 import 'package:week_3/kids_learning_screen.dart';
+import 'package:week_3/product_screen.dart';
 import 'package:week_3/temperature_converter_screen.dart';
 import 'package:week_3/user_list_screen.dart';
 
@@ -9,7 +10,8 @@ class HomeScreenMobile extends StatelessWidget {
     {"name": "User List", "icon": Icons.people, "screen": UserListScreen()},
     {"name": "Temperature Converter", "icon": Icons.thermostat, "screen": TemperatureConverterApp()},
     {"name": "Kids Learning App","icon":Icons.school, "screen": KidsLearningScreen()},
-    {"name": "Calculator" , "icon":Icons.calculate, "screen": CalculatorScreen()}
+    {"name": "Calculator" , "icon":Icons.calculate, "screen": CalculatorScreen()},
+    {"name": "Store" , "icon":Icons.store, "screen": ProductsScreen()},
   ];
 
    HomeScreenMobile({super.key});
