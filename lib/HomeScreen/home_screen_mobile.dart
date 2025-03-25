@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:week_3/Chatbot/chatbot.dart';
 import 'package:week_3/calculator_screen.dart';
 import 'package:week_3/kids_learning_screen.dart';
 import 'package:week_3/product_screen.dart';
@@ -12,6 +13,8 @@ class HomeScreenMobile extends StatelessWidget {
     {"name": "Kids Learning App","icon":Icons.school, "screen": KidsLearningScreen()},
     {"name": "Calculator" , "icon":Icons.calculate, "screen": CalculatorScreen()},
     {"name": "Store" , "icon":Icons.store, "screen": ProductsScreen()},
+    {"name": "chatbot" , "icon":Icons.chat, "screen": ChatbotScreen()},
+
   ];
 
    HomeScreenMobile({super.key});
